@@ -19,7 +19,7 @@ typedef vector<std::wstring> *queues;
 int main()
 {
 	// Define the connection-string
-	const utility::string_t storage_connection_string(U("DefaultEndpointsProtocol=https;AccountName=watbatchtest10;AccountKey=naBf8tU9rWsSycIIs3PM45XV6vbP1MeIn05g9nV8HdeocI/zfCgcyF45HHfAX1+sc7j0+cB9xp5JKb/eLM3jMQ=="));
+	const utility::string_t storage_connection_string(U("DefaultEndpointsProtocol=https;AccountName=YOURACCOUNTNAME;AccountKey=YOURACCONTKEY"));
 	//const utility::string_t storage_connection_string(U("UseDevelopmentStorage=true;"));
 
 	// Retrieve storage account from connection string.
