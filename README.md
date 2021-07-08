@@ -23,7 +23,6 @@ Then you can build the solution in Visual Studio.
 
 ## Run the EXE File in ABS Server
 To ensure the consistency of the test environment, we test official SDK perf in ABS server (Deployed in test tenant). 
-```
 Copy the Release file folder to ABS server and run EXE in it. 
-```
+
 `Note`: Before running the EXE file in ABS server, please use vcpkg to install the azure storage sdk either. The steps are the same as above.
