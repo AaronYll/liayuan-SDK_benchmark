@@ -20,6 +20,7 @@ To use vcpkg with Visual Studio, please follow the [quickstart](https://github.c
 ```
 Then you can build the solution in Visual Studio.
 
+`Note`: Before building the solution, please replace the storage connection string(psudo) with your ABS server's storage connection string.
 
 ## Run the EXE File in ABS Server
 To ensure the consistency of the test environment, we test official SDK perf in ABS server (Deployed in test tenant). 
